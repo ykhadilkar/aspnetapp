@@ -1,0 +1,16 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  labels:
+    app.kubernetes.io/part-of: aspnetapp
+    apps.tanzu.vmware.com/workload-type: web
+  name: aspnetapp
+spec:
+  image: harbor.dhaka.cf-app.com/ykhadilkar/aspnetapp
+  serviceClaims:
+  - name: db
+    ref:
+      apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+      kind: ResourceClaim
+      name: external-mysql-db-claim
+

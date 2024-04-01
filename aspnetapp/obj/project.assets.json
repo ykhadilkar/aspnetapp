@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": []
+  },
+  "packageFolders": {
+    "/Users/ykhadilkar/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ykhadilkar/Workspace/sample-apps/dotnet-docker/samples/aspnetapp/aspnetapp/aspnetapp.csproj",
+      "projectName": "aspnetapp",
+      "projectPath": "/Users/ykhadilkar/Workspace/sample-apps/dotnet-docker/samples/aspnetapp/aspnetapp/aspnetapp.csproj",
+      "packagesPath": "/Users/ykhadilkar/.nuget/packages/",
+      "outputPath": "/Users/ykhadilkar/Workspace/sample-apps/dotnet-docker/samples/aspnetapp/aspnetapp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ykhadilkar/Workspace/sample-apps/dotnet-docker/NuGet.Config",
+        "/Users/ykhadilkar/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.0/libexec/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

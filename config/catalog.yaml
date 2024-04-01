@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aspnetapp
+  description: Sample ASP NET App 
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=aspnetapp"
+  links:
+    - url: https://tanzu.vmware.com
+      title: ASP NET API
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+  system: customer
