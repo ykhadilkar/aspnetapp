@@ -13,4 +13,9 @@ spec:
       apiVersion: services.apps.tanzu.vmware.com/v1alpha1
       kind: ResourceClaim
       name: external-mysql-db-claim
+  env: 
+    - name: env-variable-a
+      value: "env-variable-a value a"
+    - name: env-variable-b
+      value: "env-variable-a value b"
 
