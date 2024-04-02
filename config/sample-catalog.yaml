@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ncdot-components
+  description: Steve's sample app running in K8s! 
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=ncdot-components-server"
+  links:
+    - url: http://ncdot-components.developerns.dotl-tap.dotl.ncl.net/
+      title: NCDOT-Components
+      icon: dashboard
+      type: dashboard
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+  system: customer
+has context menu
