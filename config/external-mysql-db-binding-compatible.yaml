@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: external-mysql-db-binding-compatible
+type: Opaque
+stringData:
+  type: mysql
+  provider: bitnami
+  host: XX.XXX.XX.XXX
+  port: "3306"
+  database: "petclinic"
+  username: "root"
+  password: "XXXXXXXX"
